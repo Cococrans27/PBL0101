@@ -1,4 +1,4 @@
-![Bukti](src/assets/bukti.png)
+![Bukti](src/assets/bukti12.png)
 
 # React + Vite
 

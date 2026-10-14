@@ -1,18 +1,69 @@
-.counter {
-  font-size: 16px;
-  padding: 5px 10px;
-  border-radius: 5px;
-  color: var(--accent);
-  background: var(--accent-bg);
-  border: 2px solid transparent;
-  transition: border-color 0.3s;
-  margin-bottom: 24px;
+#root {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
 
-  &:hover {
-    border-color: var(--accent-border);
-  }
-  &:focus-visible {
-    outline: 2px solid var(--accent);
-    outline-offset: 2px;
-  }
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.card {
+  background: #ffffff;
+  padding: 40px 50px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  width: 100%;
+  max-width: 480px;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #61dafb;
+  background: #20232a;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.divider {
+  height: 4px;
+  width: 80px;
+  background: #61dafb;
+  margin: 20px auto 24px;
+  border-radius: 2px;
+}
+
+.info {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1.1rem;
+  color: #1e293b;
+  text-align: left;
+}
+
+.info td {
+  padding: 10px 6px;
+  text-align: left;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.info td:first-child {
+  font-weight: 600;
+  width: 100px;
+}
+
+.info td:nth-child(2) {
+  width: 20px;
+  text-align: center;
+}
+
+.info tr:last-child td {
+  border-bottom: none;
 }
